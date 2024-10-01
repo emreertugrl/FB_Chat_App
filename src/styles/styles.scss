@@ -150,5 +150,65 @@ button {
 .chat-page main {
   flex: 1;
   color: black;
-  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.msg-other {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    img {
+      width: 40px;
+      border-radius: 50%;
+    }
+    span {
+      font-weight: bold;
+      white-space: nowrap;
+    }
+  }
+}
+
+.msg-user {
+  background: #f99417;
+  align-self: end;
+  padding: 4px 8px;
+  border-radius: 7px 7px 0 7px;
+  color: white;
+}
+.warning {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  color: gray;
+}
+
+// emoji
+.chat-page .message-form {
+  position: relative;
+}
+
+.chat-page .message-form div aside {
+  position: absolute;
+  right: 10px;
+  top: -450px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.507);
+  button {
+    padding: 0;
+    box-shadow: none;
+  }
+  input {
+    width: 100%;
+    box-shadow: none;
+    padding-left: 30px;
+  }
 }

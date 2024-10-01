@@ -24,7 +24,7 @@ const App = () => {
 
   // yetkisi yoksa LoginPage'i ekrana bas
   if (!isAuth) return <LoginPage setIsAuth={setIsAuth} />;
-
+  console.log(room);
   // yetkisi varsa  RoomPage'i ekrana bas
   return (
     <div className="container">
