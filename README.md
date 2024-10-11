@@ -56,7 +56,7 @@ To develop the project, you can use the following commands:
 
 ## Live Demo
 
-<a href="https://menuapplication.netlify.app/">Netlify Project View</a>
+<a href="https://fbchatapp.netlify.app/">Netlify Project View</a>
 
 ## API'ler
 
