@@ -54,10 +54,6 @@ To develop the project, you can use the following commands:
 
 <img src="/public/chat_app.gif" alt="chat-app-gif">
 
-## Live Demo
-
-<a href="https://fbchatapp.netlify.app/">Netlify Project View</a>
-
 ## API'ler
 
 No external APIs were used in this project.
